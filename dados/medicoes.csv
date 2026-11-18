@@ -1,0 +1,4 @@
+aplicativo,versao_app,data_teste,tamanho_app_store_mb,tamanho_app_instalado_mb,documentos_dados_mb,inicializacao_1_s,inicializacao_2_s,inicializacao_3_s,media_inicializacao_s,fluidez,enquadramento,ram_mb,metodo_ram,observacoes
+WhatsApp,,,,,,,,,,,,nao_mensurado,nao_disponivel,
+Telegram,,,,,,,,,,,,nao_mensurado,nao_disponivel,
+Signal,,,,,,,,,,,,nao_mensurado,nao_disponivel,
