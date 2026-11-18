@@ -118,9 +118,20 @@ Para aplicativos de mensagens com notificações, criptografia e chamadas, uma s
 
 No conjunto de testes realizados em **18/11/2026** no **iPhone XR (iOS 18.7.11)**, o **Telegram apresentou o melhor resultado observado nos indicadores de inicialização e armazenamento**: média de 1,12 segundo, ocupação de 230 MB, boa fluidez e enquadramento adequado. O **WhatsApp** também apresentou boa fluidez e enquadramento adequado, mas ocupou 5,35 GB e teve tempo médio de 1,70 segundo. O **Instagram** apresentou tamanho de 693,7 MB na App Store, 2,63 GB ocupados, tempo médio de 2,30 segundos e fluidez regular, sem problemas relatados de enquadramento.
 
-A pesquisa tecnológica indica diferentes combinações de tecnologias nativas e componentes compartilhados. Entretanto, os resultados não são suficientes para concluir que uma linguagem ou framework específico seja superior ou responsável pelo desempenho constatado. O estudo cumpre o objetivo de comparar dados práticos e escolhas tecnológicas sob condições de um mesmo dispositivo, desde que seus limites sejam explicitados. A coleta de RAM não foi realizada por ausência de instrumentação apropriada e as capturas de tela ainda devem ser anexadas como evidências.
+A pesquisa tecnológica indica diferentes combinações de tecnologias nativas e componentes compartilhados. Entretanto, os resultados não são suficientes para concluir que uma linguagem ou framework específico seja superior ou responsável pelo desempenho constatado. O estudo cumpre o objetivo de comparar dados práticos e escolhas tecnológicas sob condições de um mesmo dispositivo, desde que seus limites sejam explicitados. A coleta de RAM não foi realizada por ausência de instrumentação apropriada. As 11 capturas JPEG foram organizadas no repositório como evidências documentais de interface, informações do dispositivo, App Store e armazenamento.
 
-## 8. Referências e documentação
+## 8. Registros visuais
+
+Os arquivos JPEG presentes no repositório documentam as telas indicadas abaixo. Sua existência e nomenclatura foram verificadas; o conteúdo visual não foi auditado nesta revisão.
+
+| Aplicativo / dispositivo | Registros |
+| --- | --- |
+| iPhone XR | [Informações](../capturas/dispositivo/01-sobre-iphone.jpeg) · [Armazenamento](../capturas/dispositivo/02-armazenamento-iphone.jpeg) |
+| WhatsApp | [App Store](../capturas/whatsapp/01-app-store.jpeg) · [Armazenamento](../capturas/whatsapp/02-armazenamento.jpeg) · [Interface](../capturas/whatsapp/03-interface.jpeg) |
+| Telegram | [App Store](../capturas/telegram/01-app-store.jpeg) · [Armazenamento](../capturas/telegram/02-armazenamento.jpeg) · [Interface](../capturas/telegram/03-interface.jpeg) |
+| Instagram | [App Store](../capturas/instagram/01-app-store.jpeg) · [Armazenamento](../capturas/instagram/02-armazenamento.jpeg) · [Direct](../capturas/instagram/03-interface-direct.jpeg) |
+
+## 9. Referências e documentação
 
 - Material da disciplina: **Aula03Mobile.pdf**, slides 2 a 4, utilizado como referência na atividade.
 - TELEGRAMMESSENGER. *Telegram-iOS*. https://github.com/TelegramMessenger/Telegram-iOS. Acesso em: 18 nov. 2026.
@@ -133,4 +144,4 @@ A pesquisa tecnológica indica diferentes combinações de tecnologias nativas e
 
 ---
 
-**Situação da documentação:** texto conclusivo elaborado a partir dos dados fornecidos. **Pendente para entrega:** anexar capturas reais. Autor identificado: Jhoann Carllos Feitosa Araújo.
+**Situação da documentação:** texto conclusivo elaborado a partir dos dados fornecidos. **Documentação consolidada:** 11 arquivos JPEG disponíveis em `capturas/`, sem auditoria visual de seu conteúdo nesta revisão. Autor: Jhoann Carllos Feitosa Araújo.
