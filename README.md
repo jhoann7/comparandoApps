@@ -35,7 +35,7 @@ A atividade original solicita três aplicativos concorrentes, pesquisa da stack 
 - [x] Adaptar o desenho experimental para um único iPhone XR.
 - [x] Preparar estrutura para documentar pesquisa e medições.
 - [ ] Registrar configurações e versões do dispositivo e aplicativos.
-- [ ] Levantar e **verificar com fontes** as stacks de desenvolvimento e a classificação.
+- [x] Pesquisar e documentar as evidências iniciais das stacks e a classificação do cliente iOS (com ressalvas).
 - [ ] Coletar tamanho na App Store e armazenamento no iPhone.
 - [ ] Realizar três aberturas cronometradas de cada aplicativo.
 - [ ] Avaliar fluidez e enquadramento de forma padronizada.
