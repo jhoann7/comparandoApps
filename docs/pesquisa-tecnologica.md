@@ -2,7 +2,7 @@
 
 **Data da pesquisa:** 18/11/2026  
 **Escopo:** clientes **iOS** de WhatsApp, Telegram e Instagram, para posterior comparação no iPhone XR.  
-**Situação:** pesquisa documental preliminar concluída; medições práticas ainda pendentes.
+**Situação:** levantamento documental concluído dentro do escopo público disponível; análise prática e discussão concluídas em [relatorio-final.md](relatorio-final.md).
 
 ## 1. Critérios de classificação
 
@@ -65,7 +65,8 @@ Uma alternativa hipotética de desenvolvimento multiplataforma seria **React Nat
 2. **Vagas ≠ prova de implementação:** habilidades exigidas não comprovam, por si só, uso de uma linguagem em toda a versão de produção.
 3. **Classificação do cliente ≠ classificação dos serviços:** backend e infraestrutura são outra camada.
 4. **Não correlacionar linguagem e desempenho diretamente:** diferenças de inicialização ou armazenamento podem resultar de cache, mídia, versão, rede e funções oferecidas.
-5. A definição exata de “nativo”, “híbrido” e “web” deverá ser conferida com os materiais teóricos da disciplina, se disponibilizados.\n6. Instagram possui escopo mais amplo que os mensageiros. Comparar funcionalidades equivalentes (mensagens diretas), relatando que o app também carrega feed, vídeos e outras funções.
+5. A definição exata de “nativo”, “híbrido” e “web” deverá ser conferida com os materiais teóricos da disciplina, se disponibilizados.
+6. Instagram possui escopo mais amplo que os mensageiros. Comparar funcionalidades equivalentes (mensagens diretas), relatando que o app também carrega feed, vídeos e outras funções.
 
 ## 5. Fontes consultadas
 
@@ -74,9 +75,12 @@ Acesso em **18 nov. 2026**:
 1. TELEGRAM. *Telegram Applications*. https://telegram.org/apps/.
 2. TELEGRAMMESSENGER. *Telegram-iOS* (repositório). https://github.com/TelegramMessenger/Telegram-iOS.
 3. TELEGRAMMESSENGER. *Telegram iOS Source Code Compilation Guide*. https://github.com/TelegramMessenger/Telegram-iOS/blob/master/README.md.
-4. INSTAGRAM ENGINEERING. *Instant Feedback in iOS Engineering Workflows*. https://medium.com/instagram-engineering/instant-feedback-in-ios-engineering-workflows-c3f6508c76c8.\n5. INSTAGRAM. *IGListKit Reference*. https://instagram.github.io/IGListKit/index.html.\n6. META ENGINEERING. *React at Meta Connect 2024*. https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/.\n8. AT SCALE. *Improving Instagram iOS Build Speeds*. https://atscaleconference.com/improving-instagram-ios-build-speeds/.
-7. WHATSAPP/META. *Software Engineer (Technical Leadership) — iOS* (vaga reproduzida no LinkedIn). https://br.linkedin.com/jobs/view/whatsapp-software-engineer-technical-leadership-ios-at-whatsapp-4477773017.
+4. INSTAGRAM ENGINEERING. *Instant Feedback in iOS Engineering Workflows*. https://medium.com/instagram-engineering/instant-feedback-in-ios-engineering-workflows-c3f6508c76c8.
+5. INSTAGRAM. *IGListKit Reference*. https://instagram.github.io/IGListKit/index.html.
+6. META ENGINEERING. *React at Meta Connect 2024*. https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/.
+7. AT SCALE. *Improving Instagram iOS Build Speeds*. https://atscaleconference.com/improving-instagram-ios-build-speeds/.
+8. WHATSAPP/META. *Software Engineer (Technical Leadership) — iOS* (vaga reproduzida no LinkedIn). https://br.linkedin.com/jobs/view/whatsapp-software-engineer-technical-leadership-ios-at-whatsapp-4477773017.
 
-## 6. Próxima etapa
+## 6. Resultado consolidado
 
-Preencher [../dados/dispositivo.csv](../dados/dispositivo.csv) com as configurações reais do iPhone XR e [../dados/medicoes.csv](../dados/medicoes.csv) com os resultados medidos, usando [metodologia.md](metodologia.md). Depois integrar os números e observações à [análise comparativa](analise-comparativa.md).
+A discussão da adequação das escolhas tecnológicas, das alternativas possíveis e das limitações encontra-se em [relatorio-final.md](relatorio-final.md). Os dados instrumentais disponíveis estão em [../dados/medicoes.csv](../dados/medicoes.csv).
