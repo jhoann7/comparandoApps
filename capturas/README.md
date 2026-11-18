@@ -27,3 +27,5 @@ capturas/
 **Privacidade:** antes de publicar as imagens, ocultar número de telefone, contatos, mensagens, fotos, notificações, senhas e outros dados privados. Oculte somente dados sensíveis, sem alterar números medidos. Prefira conversas de teste.
 
 > Cronometragens foram registradas numericamente em [dados/medicoes.csv](../dados/medicoes.csv). Prints de cronômetro são opcionais, se existirem. Não recriar evidências retroativamente.
+
+**Formato padrão das imagens:** JPEG (extensão `.jpeg`). Não utilizar `.png` para as capturas deste projeto.
