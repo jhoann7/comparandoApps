@@ -2,7 +2,7 @@
 
 ## 1. Delineamento
 
-Pesquisa comparativa, com medidas quantitativas (tamanho informado na loja, espaço ocupado e tempo de inicialização) e avaliações qualitativas (fluidez e enquadramento). Unidade experimental: **um iPhone XR**; aplicativos: WhatsApp, Telegram e Signal.
+Pesquisa comparativa entre aplicativos de comunicação (WhatsApp, Telegram e Instagram), com medidas quantitativas (tamanho informado na loja, espaço ocupado e tempo de inicialização) e avaliações qualitativas (fluidez e enquadramento). Unidade experimental: **um iPhone XR**; aplicativos: WhatsApp, Telegram e Instagram.
 
 A proposta original previa dois celulares, mas foi adaptada para um único aparelho disponível. Portanto, não se pretende estimar diferenças entre modelos de smartphone ou entre Android e iOS.
 
@@ -43,11 +43,11 @@ Três repetições são uma amostra pequena: não inferir diferenças estatistic
 
 ### 4.4 Fluidez das animações
 
-Executar roteiro comum: abrir lista de conversas, rolar a lista, abrir uma conversa de teste, voltar e acessar configurações. Classificar como **boa / regular / ruim**, acrescentando exemplos observáveis (travamentos, atraso na resposta ou transições suaves). Evitar acessar dados de terceiros.
+Executar roteiro comum no módulo de mensagens de cada aplicativo: abrir lista de conversas, rolar a lista, abrir uma conversa de teste, voltar e acessar configurações. No Instagram, navegar especificamente até Direct e também registrar separadamente o tempo gasto para chegar a essa seção, se pertinente. Classificar como **boa / regular / ruim**, acrescentando exemplos observáveis (travamentos, atraso na resposta ou transições suaves). Evitar acessar dados de terceiros.
 
 ### 4.5 Enquadramento na tela
 
-Examinar os mesmos tipos de tela: lista principal, conversa de teste e configurações. Observar botões cortados, sobreposição, legibilidade, espaçamentos e adaptação à área da câmera e às bordas. Classificar como **adequado / problema observado**, com descrição e imagem quando cabível.
+Examinar os mesmos tipos de tela da área de mensagens: lista de conversas, conversa de teste e configurações. Observar botões cortados, sobreposição, legibilidade, espaçamentos e adaptação à área da câmera e às bordas. Classificar como **adequado / problema observado**, com descrição e imagem quando cabível.
 
 ### 4.6 Consumo de RAM
 
@@ -63,6 +63,6 @@ Preencher uma linha por aplicativo em [dados/medicoes.csv](../dados/medicoes.csv
 - Diferentes históricos de uso, conteúdos e caches dos aplicativos.
 - Cronometragem manual e avaliação subjetiva da fluidez.
 - Ausência de métrica direta de RAM sem instrumentação adequada.
-- Pesquisa das stacks limitada ao que as empresas tornam público.
+- Pesquisa das stacks limitada ao que as empresas tornam público.\n- Instagram é uma rede social com diversas funcionalidades além das mensagens; armazenamento e tempo de abertura do app completo não medem somente seu módulo de mensagens.
 
 **Importante:** a metodologia não determina antecipadamente qual app é mais rápido ou qual tecnologia é melhor.
