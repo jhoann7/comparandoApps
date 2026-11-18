@@ -1,6 +1,6 @@
 # Análise comparativa — modelo para preenchimento
 
-> **Coleta parcial registrada:** tamanhos informados na App Store, armazenamento ocupado no iPhone XR e três tempos de inicialização por aplicativo. Fluidez, enquadramento e RAM ainda não foram mensurados. Não transformar hipóteses em conclusões.
+> **Coleta parcial registrada:** tamanhos informados na App Store, armazenamento ocupado no iPhone XR e três tempos de inicialização por aplicativo. Fluidez e enquadramento foram avaliados qualitativamente; RAM não foi mensurada. Não transformar hipóteses em conclusões.
 
 ## 1. Síntese dos resultados
 
@@ -11,8 +11,8 @@ Preencher após os testes:
 | Tamanho na App Store | 385,3 MB | 167,8 MB | 693,7 MB |
 | Armazenamento ocupado | 5,35 GB | 230 MB | 2,63 GB |
 | Tempo médio de abertura (n = 3) | **1,70 s** | **1,12 s** | **2,30 s** |
-| Fluidez | Pendente | Pendente | Pendente |
-| Enquadramento | Pendente | Pendente | Pendente |
+| Fluidez | **Boa** | **Boa** | **Regular** |
+| Enquadramento | **Adequado** | **Adequado** | **Adequado** |
 | RAM | Não mensurado* | Não mensurado* | Não mensurado* |
 
 *Manter como não mensurado caso não haja instrumentação apropriada. Os valores são os informados pelo usuário para o iPhone XR; não houve separação de tamanho do app versus documentos e dados. Conversão dos valores em GB para a planilha feita na convenção decimal (1 GB = 1.000 MB). Data exata e versões dos apps ainda não registradas.
@@ -29,11 +29,20 @@ Preencher após os testes:
 
 **Interpretação preliminar:** Telegram teve a menor média, seguido de WhatsApp e Instagram. A terceira abertura do Instagram (4,22 s) foi muito superior às duas primeiras (1,35 s e 1,34 s) e influenciou sua média. Manter esse valor no conjunto original; uma repetição futura pode investigar a variação, sem substituir silenciosamente o dado. O armazenamento livre previamente informado foi 300 MB, mas não há prova de que tenha provocado o tempo elevado. Apenas três repetições por app não sustentam conclusão geral sobre desempenho nem causalidade tecnológica.
 
-### Observações preliminares\n
+### Observações preliminares
+
 - WhatsApp apresenta maior ocupação no aparelho (5,35 GB).
 - Telegram apresenta menor ocupação no aparelho (230 MB).
 - Instagram apresenta maior tamanho listado na App Store (693,7 MB).
 - Não há base para concluir superioridade de otimização: dados de usuário, mídias, cache e histórico podem contribuir para diferenças.
+
+### Avaliação qualitativa de navegação e interface
+
+- **WhatsApp:** fluidez boa e enquadramento adequado; equipe não relatou observações adicionais.
+- **Telegram:** fluidez boa e enquadramento adequado; equipe não relatou observações adicionais.
+- **Instagram:** fluidez regular e enquadramento adequado; equipe não relatou observações adicionais ou localização específica de atrasos.
+- Os três aplicativos tiveram enquadramento considerado adequado no iPhone XR. O Instagram teve avaliação subjetiva de fluidez inferior às dos mensageiros, mas não é possível determinar a causa apenas com essa classificação.
+- A avaliação é qualitativa e específica do dispositivo e das condições de teste; não equivale a medição de FPS ou RAM.
 
 ## 2. Interpretação
 
