@@ -6,7 +6,7 @@
 
 Preencher após os testes:
 
-| Critério | WhatsApp | Telegram | Signal |
+| Critério | WhatsApp | Telegram | Instagram |
 | --- | --- | --- | --- |
 | Tamanho na App Store | Pendente | Pendente | Pendente |
 | Armazenamento ocupado | Pendente | Pendente | Pendente |
@@ -22,7 +22,7 @@ Preencher após os testes:
 - Qual aplicativo apresentou menor tempo médio de inicialização? A diferença pode refletir conexão, cache, estado de sessão ou conteúdo?
 - O armazenamento ocupado reflete apenas o app ou também mídias/documentos?
 - Foram observados travamentos ou problemas de interface? Em quais telas?
-- Quais características são comuns aos três aplicativos?
+- Quais características de mensagens são comuns aos três aplicativos?\n- Como o feed, os vídeos e outras funções do Instagram limitam comparações diretas com mensageiros dedicados?
 - Os dados permitem inferir causalidade da stack no desempenho? **Em geral, não isoladamente.**
 
 ## 3. Escolhas tecnológicas
