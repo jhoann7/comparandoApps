@@ -6,7 +6,7 @@ Projeto acadêmico de **Desenvolvimento para Dispositivos Móveis** — Prof. Dr
 
 Comparar **WhatsApp, Telegram e Instagram** quanto às tecnologias documentadas, tamanho, armazenamento, tempo de inicialização e experiência de interface no **iPhone XR**.
 
-> **Situação:** relatório e análise concluídos com os dados fornecidos em 18/11/2026. Capturas de tela reais ainda pendentes. Autor identificado.
+> **Situação:** pesquisa e relatório concluídos; 11 capturas JPEG organizadas no repositório, com autoria individual identificada.
 
 ## Dados da pesquisa
 
@@ -37,14 +37,22 @@ comparandoApps/
 ├── dados/
 │   ├── dispositivo.csv
 │   └── medicoes.csv
-├── capturas/
-│   ├── README.md
-│   ├── dispositivo/README.md
-│   ├── whatsapp/README.md
-│   ├── telegram/README.md
-│   └── instagram/README.md
-└── evidencias/
-    └── README.md  (redirecionamento para capturas/)
+└── capturas/
+    ├── dispositivo/
+    │   ├── 01-sobre-iphone.jpeg
+    │   └── 02-armazenamento-iphone.jpeg
+    ├── whatsapp/
+    │   ├── 01-app-store.jpeg
+    │   ├── 02-armazenamento.jpeg
+    │   └── 03-interface.jpeg
+    ├── telegram/
+    │   ├── 01-app-store.jpeg
+    │   ├── 02-armazenamento.jpeg
+    │   └── 03-interface.jpeg
+    └── instagram/
+        ├── 01-app-store.jpeg
+        ├── 02-armazenamento.jpeg
+        └── 03-interface-direct.jpeg
 ```
 
 ## Documentação
@@ -55,18 +63,20 @@ comparandoApps/
 - [Metodologia detalhada adaptada para um celular](docs/metodologia.md)
 - [Medições originais em CSV](dados/medicoes.csv)
 - [Dados do dispositivo em CSV](dados/dispositivo.csv)
-- [Guia de capturas de tela](capturas/README.md)
+- [Capturas JPEG organizadas por aplicativo](capturas/)
 
-## Capturas de tela a anexar
+## Capturas de tela
 
-Coloque as capturas nas pastas abaixo, seguindo os nomes indicados nos seus respectivos READMEs:
+As 11 imagens JPEG estão organizadas e acessíveis em:
 
-- [`capturas/dispositivo/`](capturas/dispositivo/) — iOS e armazenamento do iPhone XR.
-- [`capturas/whatsapp/`](capturas/whatsapp/) — App Store, armazenamento e interface.
-- [`capturas/telegram/`](capturas/telegram/) — App Store, armazenamento e interface.
-- [`capturas/instagram/`](capturas/instagram/) — App Store, armazenamento e Direct.
+| Área | App Store | Armazenamento | Interface / versão do iPhone |
+| --- | --- | --- | --- |
+| iPhone XR | — | [Armazenamento](capturas/dispositivo/02-armazenamento-iphone.jpeg) | [Informações do aparelho](capturas/dispositivo/01-sobre-iphone.jpeg) |
+| WhatsApp | [App Store](capturas/whatsapp/01-app-store.jpeg) | [Armazenamento](capturas/whatsapp/02-armazenamento.jpeg) | [Interface](capturas/whatsapp/03-interface.jpeg) |
+| Telegram | [App Store](capturas/telegram/01-app-store.jpeg) | [Armazenamento](capturas/telegram/02-armazenamento.jpeg) | [Interface](capturas/telegram/03-interface.jpeg) |
+| Instagram | [App Store](capturas/instagram/01-app-store.jpeg) | [Armazenamento](capturas/instagram/02-armazenamento.jpeg) | [Direct](capturas/instagram/03-interface-direct.jpeg) |
 
-**Importante:** ocultar dados pessoais em prints. Não alterar valores de medições, nem representar capturas posteriores como se fossem da data original.
+**Observação:** existência, nomes e extensão dos arquivos foram verificados no GitHub; o conteúdo visual de cada JPEG não foi auditado nesta revisão. Se houver dados pessoais identificáveis, recomenda-se ocultá-los antes de divulgação pública.
 
 ## Checklist
 
@@ -79,8 +89,7 @@ Coloque as capturas nas pastas abaixo, seguindo os nomes indicados nos seus resp
 - [x] Registrar fluidez e enquadramento.
 - [x] Documentar a impossibilidade da medição direta de RAM.
 - [x] Concluir discussão fundamentada e relatório textual.
-- [x] Estruturar pastas e orientações de capturas.
-- [ ] Anexar capturas reais em suas pastas.
+- [x] Organizar e anexar 11 capturas JPEG nas pastas do dispositivo e dos três aplicativos.
 - [x] Identificar o autor do trabalho: Jhoann Carllos Feitosa Araújo.
 
 ## Limitações
