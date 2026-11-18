@@ -1,12 +1,12 @@
 # Etapa 2 — Pesquisa tecnológica e classificação dos aplicativos
 
 **Data da pesquisa:** 18/11/2026  
-**Escopo:** clientes **iOS** de WhatsApp, Telegram e Signal, para posterior comparação no iPhone XR.  
+**Escopo:** clientes **iOS** de WhatsApp, Telegram e Instagram, para posterior comparação no iPhone XR.  
 **Situação:** pesquisa documental preliminar concluída; medições práticas ainda pendentes.
 
 ## 1. Critérios de classificação
 
-- **Finalidade:** comunicação / mensagens instantâneas.
+- **Finalidade:** plataformas de comunicação digital com recursos de mensagens diretas. Instagram é primariamente uma rede social; WhatsApp e Telegram são mensageiros.
 - **Plataforma avaliada:** iOS.
 - **Tipo de implementação:** nativo, híbrido ou web, segundo evidências do cliente iOS.
 - **Stack:** separar **interface e aplicativo iOS**, **bibliotecas compartilhadas** e **backend**. Uma linguagem usada numa biblioteca não implica que todo o aplicativo seja escrito nela.
@@ -14,14 +14,14 @@
 
 ## 2. Quadro comparativo
 
-| Critério | WhatsApp | Telegram | Signal |
+| Critério | WhatsApp | Telegram | Instagram |
 | --- | --- | --- | --- |
-| Categoria | Mensagens instantâneas | Mensagens instantâneas | Mensagens instantâneas |
+| Categoria | Mensagens instantâneas | Mensagens instantâneas | Rede social com mensagens diretas |
 | Plataforma desta pesquisa | iOS | iOS | iOS |
-| Classificação preliminar | Cliente nativo iOS (inferência fundamentada em vagas de engenharia) | Cliente nativo iOS (código-fonte público) | Cliente nativo iOS (código-fonte público) |
-| Linguagens documentadas | Swift, Objective-C e C++ em requisitos de vagas para iOS; uso exato não verificado | Swift, Objective-C e componentes C/C++ no projeto iOS | Swift, Objective-C no projeto iOS; Rust na biblioteca compartilhada libsignal |
-| Ferramentas / bibliotecas documentadas | iOS SDK / frameworks, citados em vagas | Xcode e Bazel no guia oficial de compilação | Xcode, CocoaPods, libsignal (Swift binding para código Rust) |
-| Código-fonte completo do cliente disponível publicamente? | Não verificado nesta pesquisa | Sim, repositório oficial | Sim, repositório oficial |
+| Classificação preliminar | Cliente nativo iOS (inferência fundamentada em vagas de engenharia) | Cliente nativo iOS (código-fonte público) | Base nativa iOS, com uso documentado de React Native em algumas experiências |
+| Linguagens documentadas | Swift, Objective-C e C++ em requisitos de vagas para iOS; uso exato não verificado | Swift, Objective-C e componentes C/C++ no projeto iOS | Objective-C documentado pela engenharia do Instagram; Swift presente na evolução da stack iOS; componentes React Native em experiências específicas |
+| Ferramentas / bibliotecas documentadas | iOS SDK / frameworks, citados em vagas | Xcode e Bazel no guia oficial de compilação | IGListKit (Objective-C, integração Swift), UIKit/UICollectionView e React Native em partes do produto |
+| Código-fonte completo do cliente disponível publicamente? | Não verificado nesta pesquisa | Sim, repositório oficial | Não; IGListKit é biblioteca pública, não o app inteiro |
 | Backend, banco de dados e infraestrutura | Não determinados nesta pesquisa | Não determinados nesta pesquisa | Não determinados nesta pesquisa |
 
 ### WhatsApp
@@ -40,19 +40,24 @@ O Telegram publica o [código-fonte do cliente iOS](https://github.com/TelegramM
 
 **Pendente:** documentar bibliotecas específicas de interface e persistência e diferenciar o cliente da infraestrutura de servidor.
 
-### Signal
+### Instagram
 
-O [código-fonte oficial do Signal para iOS](https://github.com/signalapp/Signal-iOS) evidencia desenvolvimento para a plataforma Apple, incluindo **Swift** e componentes **Objective-C**. O arquivo [SignalApp.swift](https://github.com/signalapp/Signal-iOS/blob/main/Signal/AppLaunch/SignalApp.swift) é exemplo direto de código Swift do cliente. A biblioteca [libsignal](https://github.com/signalapp/libsignal/blob/main/swift/README.md) descreve bindings Swift para uma implementação de componentes compartilhados em **Rust** por meio de interface FFI em C.
+A [equipe de engenharia do Instagram](https://medium.com/instagram-engineering/instant-feedback-in-ios-engineering-workflows-c3f6508c76c8) descreveu sua base nativa iOS em **Objective-C** (artigo histórico). Uma [palestra sobre compilação iOS](https://atscaleconference.com/improving-instagram-ios-build-speeds/) relatou que, em 2020, predominava Objective-C e havia código Swift; isso **não determina a proporção atual** de cada linguagem.
 
-**Classificação:** cliente iOS nativo que integra biblioteca compartilhada de baixo nível. **Rust não deve ser apresentado como a linguagem de toda a interface do Signal.**
+A biblioteca [IGListKit](https://instagram.github.io/IGListKit/index.html), publicada pela própria equipe, é baseada em **Objective-C** e interoperável com **Swift**, utilizada pelo aplicativo para listas de conteúdo.
 
-**Pendente:** identificar com precisão bibliotecas de UI/persistência e a arquitetura de servidor a partir de documentação específica.
+A [engenharia da Meta informou em 2024](https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/) que **React Native** permitiu desenvolver animações e interações no Instagram. Portanto, o aplicativo não deve ser apresentado como **100% nativo sem componentes multiplataforma**, nem como inteiramente construído em React Native.
+
+**Classificação:** aplicativo iOS com base nativa e uso pontual/documentado de React Native. É necessário distinguir a arquitetura predominante das tecnologias usadas em funcionalidades específicas.
+
+**Pendente:** apuração de arquitetura atual por componente, backend e armazenamento, pois o código completo do app não é disponibilizado.
+
 
 ## 3. Discussão inicial — escolhas tecnológicas
 
-Nos três casos, o desenvolvimento dedicado ao iOS é coerente com a necessidade de interação responsiva, notificações, chamadas, acesso aos recursos do aparelho e integração ao sistema. O emprego de componentes compartilhados em C/C++ ou Rust pode facilitar reaproveitamento de funcionalidades entre plataformas, mas esta pesquisa documental **não demonstra** superioridade de desempenho.
+Nos três casos, o uso de componentes nativos para iOS é coerente com a necessidade de interação responsiva, notificações, chamadas, acesso aos recursos do aparelho e integração ao sistema. Tecnologias como C/C++, bibliotecas nativas e React Native atendem a necessidades diferentes; estas evidências **não demonstram** superioridade de desempenho.
 
-Uma alternativa hipotética de desenvolvimento multiplataforma seria **React Native** ou **Flutter**, com possível compartilhamento de código. Contudo, afirmar que uma delas seria superior exige discutir manutenção, interoperabilidade, APIs nativas, criptografia, complexidade e testes. Não atribuir a WhatsApp, Telegram ou Signal o uso dessas tecnologias sem evidência.
+Uma alternativa hipotética de desenvolvimento multiplataforma seria **React Native** ou **Flutter**, com possível compartilhamento de código. Contudo, afirmar que uma delas seria superior exige discutir manutenção, interoperabilidade, APIs nativas, criptografia, complexidade e testes. Para o Instagram, há relato oficial do uso de React Native em experiências específicas; não extrapolar tal uso para o aplicativo inteiro nem atribuí-lo aos demais sem evidências.
 
 ## 4. Limites e cuidados
 
@@ -60,7 +65,7 @@ Uma alternativa hipotética de desenvolvimento multiplataforma seria **React Nat
 2. **Vagas ≠ prova de implementação:** habilidades exigidas não comprovam, por si só, uso de uma linguagem em toda a versão de produção.
 3. **Classificação do cliente ≠ classificação dos serviços:** backend e infraestrutura são outra camada.
 4. **Não correlacionar linguagem e desempenho diretamente:** diferenças de inicialização ou armazenamento podem resultar de cache, mídia, versão, rede e funções oferecidas.
-5. A definição exata de “nativo”, “híbrido” e “web” deverá ser conferida com os materiais teóricos da disciplina, se disponibilizados.
+5. A definição exata de “nativo”, “híbrido” e “web” deverá ser conferida com os materiais teóricos da disciplina, se disponibilizados.\n6. Instagram possui escopo mais amplo que os mensageiros. Comparar funcionalidades equivalentes (mensagens diretas), relatando que o app também carrega feed, vídeos e outras funções.
 
 ## 5. Fontes consultadas
 
@@ -69,9 +74,7 @@ Acesso em **18 nov. 2026**:
 1. TELEGRAM. *Telegram Applications*. https://telegram.org/apps/.
 2. TELEGRAMMESSENGER. *Telegram-iOS* (repositório). https://github.com/TelegramMessenger/Telegram-iOS.
 3. TELEGRAMMESSENGER. *Telegram iOS Source Code Compilation Guide*. https://github.com/TelegramMessenger/Telegram-iOS/blob/master/README.md.
-4. SIGNALAPP. *Signal-iOS* (repositório). https://github.com/signalapp/Signal-iOS.
-5. SIGNALAPP. *SignalApp.swift*. https://github.com/signalapp/Signal-iOS/blob/main/Signal/AppLaunch/SignalApp.swift.
-6. SIGNALAPP. *libsignal — Swift binding README*. https://github.com/signalapp/libsignal/blob/main/swift/README.md.
+4. INSTAGRAM ENGINEERING. *Instant Feedback in iOS Engineering Workflows*. https://medium.com/instagram-engineering/instant-feedback-in-ios-engineering-workflows-c3f6508c76c8.\n5. INSTAGRAM. *IGListKit Reference*. https://instagram.github.io/IGListKit/index.html.\n6. META ENGINEERING. *React at Meta Connect 2024*. https://engineering.fb.com/2024/10/02/android/react-at-meta-connect-2024/.\n8. AT SCALE. *Improving Instagram iOS Build Speeds*. https://atscaleconference.com/improving-instagram-ios-build-speeds/.
 7. WHATSAPP/META. *Software Engineer (Technical Leadership) — iOS* (vaga reproduzida no LinkedIn). https://br.linkedin.com/jobs/view/whatsapp-software-engineer-technical-leadership-ios-at-whatsapp-4477773017.
 
 ## 6. Próxima etapa
