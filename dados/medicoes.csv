@@ -1,4 +1,4 @@
 aplicativo,versao_app,data_teste,tamanho_app_store_mb,tamanho_app_instalado_mb,documentos_dados_mb,inicializacao_1_s,inicializacao_2_s,inicializacao_3_s,media_inicializacao_s,fluidez,enquadramento,ram_mb,metodo_ram,observacoes
-WhatsApp,,,385.3,5350,,1.74,1.62,1.73,1.6967,Boa,Adequado,nao_mensurado,nao_disponivel,Sem observacoes de fluidez ou enquadramento; armazenamento convertido de 5.35 GB para 5350 MB
-Telegram,,,167.8,230,,1.37,1.15,0.85,1.1233,Boa,Adequado,nao_mensurado,nao_disponivel,Sem observacoes de fluidez ou enquadramento
-Instagram,,,693.7,2630,,1.35,1.34,4.22,2.3033,Regular,Adequado,nao_mensurado,nao_disponivel,Sem observacoes adicionais de fluidez ou enquadramento; terceira abertura de 4.22 s destoa das anteriores; armazenamento convertido de 2.63 GB para 2630 MB
+WhatsApp,26.45.75,2026-11-18,385.3,5350,,1.74,1.62,1.73,1.6967,Boa,Adequado,nao_mensurado,nao_disponivel,Sem observacoes de fluidez ou enquadramento; armazenamento convertido de 5.35 GB para 5350 MB
+Telegram,13.2.2,2026-11-18,167.8,230,,1.37,1.15,0.85,1.1233,Boa,Adequado,nao_mensurado,nao_disponivel,Sem observacoes de fluidez ou enquadramento
+Instagram,456.0.0,2026-11-18,693.7,2630,,1.35,1.34,4.22,2.3033,Regular,Adequado,nao_mensurado,nao_disponivel,Sem observacoes adicionais de fluidez ou enquadramento; terceira abertura de 4.22 s destoa das anteriores; armazenamento convertido de 2.63 GB para 2630 MB
