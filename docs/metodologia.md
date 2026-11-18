@@ -8,12 +8,12 @@ A proposta original previa dois celulares, mas foi adaptada para um único apare
 
 ## 2. Caracterização do dispositivo
 
-Antes dos testes, preencher [dados/dispositivo.csv](../dados/dispositivo.csv), incluindo versão do iOS, armazenamento disponível e condições de teste. Registrar versões dos três aplicativos em [dados/medicoes.csv](../dados/medicoes.csv).
+O dispositivo informado foi **iPhone XR, iOS 18.7.11, 64 GB, 300 MB livres**. A coleta foi realizada em **18/11/2026**. As versões e os dados coletados estão em [dados/medicoes.csv](../dados/medicoes.csv) e a identificação do aparelho em [dados/dispositivo.csv](../dados/dispositivo.csv).
 
 ## 3. Padronização
 
 1. Atualizar ou registrar as versões dos três apps; evitar atualizações no meio da coleta.
-2. Usar a mesma rede Wi-Fi e o mesmo ambiente de teste, com bateria suficiente e sem modo Pouca Energia, ou registrar qualquer exceção.
+2. Ao comparar aplicativos no mesmo aparelho, manter o procedimento tão semelhante quanto possível; condições não registradas não devem ser presumidas.
 3. Definir uma tela final comparável: **tela principal pronta para interação**. Autenticação e telas introdutórias não integram o tempo de abertura.
 4. Garantir que os aplicativos já estejam instalados, configurados e com as permissões necessárias.
 5. Evitar notificações e registrar intercorrências.
@@ -53,9 +53,11 @@ Examinar os mesmos tipos de tela da área de mensagens: lista de conversas, conv
 
 A RAM por aplicativo **não é exposta diretamente nos Ajustes do iOS**. Somente registrar valor numérico caso se utilize ferramenta apropriada e se documentem procedimento, unidade e confiabilidade. Sem isso, preencher **não mensurado**; não substituir por uso de bateria ou por armazenamento.
 
+**Justificativa final da RAM:** não foi realizada medição instrumental de RAM dos três aplicativos. O iOS não expõe o consumo de RAM individual por app nos Ajustes; portanto, o critério ficou registrado como **não mensurado** para todos, sem utilizar armazenamento ou bateria como substitutos.
+
 ## 5. Registro e análise
 
-Preencher uma linha por aplicativo em [dados/medicoes.csv](../dados/medicoes.csv), com valores observados e média calculada. Registrar evidências conforme [evidencias/README.md](../evidencias/README.md). Confrontar resultados com a pesquisa tecnológica em [docs/pesquisa-tecnologica.md](pesquisa-tecnologica.md).
+As linhas dos três aplicativos foram preenchidas em [dados/medicoes.csv](../dados/medicoes.csv), com valores observados e médias calculadas. As capturas devem ser anexadas conforme [capturas/README.md](../capturas/README.md); o texto interpretativo está em [relatorio-final.md](relatorio-final.md).
 
 ## 6. Limitações
 
@@ -63,6 +65,7 @@ Preencher uma linha por aplicativo em [dados/medicoes.csv](../dados/medicoes.csv
 - Diferentes históricos de uso, conteúdos e caches dos aplicativos.
 - Cronometragem manual e avaliação subjetiva da fluidez.
 - Ausência de métrica direta de RAM sem instrumentação adequada.
-- Pesquisa das stacks limitada ao que as empresas tornam público.\n- Instagram é uma rede social com diversas funcionalidades além das mensagens; armazenamento e tempo de abertura do app completo não medem somente seu módulo de mensagens.
+- Pesquisa das stacks limitada ao que as empresas tornam público.
+- Instagram é uma rede social com diversas funcionalidades além das mensagens; armazenamento e tempo de abertura do app completo não medem somente seu módulo de mensagens.
 
 **Importante:** a metodologia não determina antecipadamente qual app é mais rápido ou qual tecnologia é melhor.
