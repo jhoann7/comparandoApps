@@ -1,2 +1,2 @@
 dispositivo,modelo,ios_versao,capacidade_gb,espaco_livre_gb,rede,data_teste,modo_pouca_energia,observacoes
-iPhone,iPhone XR,18.7.11,64,,,,,
+iPhone,iPhone XR,18.7.11,64,0.3,,,,Armazenamento livre informado como 300 MB; pode afetar desempenho e atualizacoes
