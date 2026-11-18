@@ -1,63 +1,96 @@
 # Comparando Apps — Análise de Mercado
 
-Projeto acadêmico da disciplina **Desenvolvimento para Dispositivos Móveis**, orientada pelo Prof. Dr. José Augusto de Sena Quaresma.
+Projeto acadêmico de **Desenvolvimento para Dispositivos Móveis** — Prof. Dr. José Augusto de Sena Quaresma.
 
 ## Objetivo
 
-Comparar três aplicativos de comunicação digital com mensagens diretas — **WhatsApp, Telegram e Instagram** — quanto à tecnologia empregada, experiência de uso e desempenho observado em um **único iPhone XR**.
+Comparar **WhatsApp, Telegram e Instagram** quanto às tecnologias documentadas, tamanho, armazenamento, tempo de inicialização e experiência de interface no **iPhone XR**.
 
-> **Status:** pesquisa tecnológica preliminar, tamanhos, inicialização e avaliações qualitativas de fluidez e enquadramento registrados. Evidências, versões dos apps e análise conclusiva pendentes.
+> **Situação:** relatório e análise concluídos com os dados fornecidos em 18/11/2026. Capturas de tela reais e identificação da dupla ainda pendentes.
 
-## Contexto e adaptação
+## Dados da pesquisa
 
-A atividade original solicita três aplicativos concorrentes, pesquisa da stack de desenvolvimento, classificação, medições práticas em dois celulares, tabela comparativa e discussão fundamentada. Como a equipe dispõe de **um único iPhone XR**, todas as medições serão feitas no mesmo aparelho. Os resultados **não** representam uma comparação entre aparelhos ou sistemas operacionais.
+| Aparelho | Sistema | Capacidade | Espaço livre informado | Data da coleta |
+| --- | --- | --- | --- | --- |
+| iPhone XR | iOS 18.7.11 | 64 GB | 300 MB | 18/11/2026 |
 
-## Estrutura
+| Aplicativo | Versão | App Store | Armazenamento no iPhone | Média de abertura | Fluidez | Enquadramento |
+| --- | --- | ---: | ---: | ---: | --- | --- |
+| WhatsApp | 26.45.75 | 385,3 MB | 5,35 GB | 1,70 s | Boa | Adequado |
+| Telegram | 13.2.2 | 167,8 MB | 230 MB | **1,12 s** | Boa | Adequado |
+| Instagram | 456.0.0 | 693,7 MB | 2,63 GB | 2,30 s | Regular | Adequado |
 
-| Caminho | Conteúdo |
-| --- | --- |
-| [docs/metodologia.md](docs/metodologia.md) | Protocolo adaptado, critérios de avaliação e limitações |
-| [docs/pesquisa-tecnologica.md](docs/pesquisa-tecnologica.md) | Roteiro para apuração e classificação das stacks |
-| [docs/analise-comparativa.md](docs/analise-comparativa.md) | Modelo para discussão dos resultados e alternativas |
-| [dados/dispositivo.csv](dados/dispositivo.csv) | Identificação do iPhone XR e condições de teste |
-| [dados/medicoes.csv](dados/medicoes.csv) | Planilha-modelo para registrar as três repetições |
-| [evidencias/README.md](evidencias/README.md) | Padrão para capturas de tela e comprovação dos testes |
+*Os tempos são médias de três aberturas. Valores individuais em [dados/medicoes.csv](dados/medicoes.csv). Não foram mensurados valores de RAM por aplicativo: os Ajustes do iOS não expõem essa métrica e não houve instrumentação apropriada.*
 
-## Apps escolhidos
+**Interpretação:** o Telegram apresentou o menor tempo médio e menor ocupação no aparelho testado. Essas observações **não demonstram** que sua stack seja melhor que as outras, pois os aplicativos e seus dados locais são diferentes. Instagram é uma rede social com Direct, e não um mensageiro exclusivamente dedicado.
 
-- WhatsApp
-- Telegram
-- Instagram
+## Estrutura do repositório
 
-**Limitação de comparabilidade:** Instagram é uma rede social com mensagens diretas e não um mensageiro dedicado. A análise prática deve priorizar tarefas de mensagens equivalentes e contextualizar o impacto das funções extras.
+```text
+comparandoApps/
+├── README.md
+├── docs/
+│   ├── metodologia.md
+│   ├── pesquisa-tecnologica.md
+│   ├── analise-comparativa.md
+│   └── relatorio-final.md
+├── dados/
+│   ├── dispositivo.csv
+│   └── medicoes.csv
+├── capturas/
+│   ├── README.md
+│   ├── dispositivo/README.md
+│   ├── whatsapp/README.md
+│   ├── telegram/README.md
+│   └── instagram/README.md
+└── evidencias/
+    └── README.md  (redirecionamento para capturas/)
+```
 
-**Dispositivo informado:** iPhone XR, iOS 18.7.11, 64 GB de capacidade e 300 MB de espaço livre (registro anterior). Demais condições ainda não registradas.
+## Documentação
 
-## Fluxo de trabalho
+- [Relatório completo: introdução, objetivos, metodologia, resultados, discussão e conclusão](docs/relatorio-final.md)
+- [Pesquisa das stacks e classificação com referências](docs/pesquisa-tecnologica.md)
+- [Análise comparativa dos resultados](docs/analise-comparativa.md)
+- [Metodologia detalhada adaptada para um celular](docs/metodologia.md)
+- [Medições originais em CSV](dados/medicoes.csv)
+- [Dados do dispositivo em CSV](dados/dispositivo.csv)
+- [Guia de capturas de tela](capturas/README.md)
 
-- [x] Definir os aplicativos concorrentes.
-- [x] Adaptar o desenho experimental para um único iPhone XR.
-- [x] Preparar estrutura para documentar pesquisa e medições.
-- [ ] Registrar configurações e versões do dispositivo e aplicativos.
-- [x] Pesquisar e documentar as evidências iniciais das stacks e a classificação do cliente iOS (com ressalvas; Instagram incluído).
-- [x] Coletar tamanho na App Store e armazenamento ocupado no iPhone (sem separar documentos e dados).
-- [x] Registrar três aberturas cronometradas de cada aplicativo e calcular as médias.
-- [x] Registrar avaliações de fluidez e enquadramento no iPhone XR.
-- [ ] Anexar capturas de tela e preencher a tabela.
-- [ ] Produzir análise crítica e conclusão.
+## Capturas de tela a anexar
 
-## Cuidados metodológicos
+Coloque as capturas nas pastas abaixo, seguindo os nomes indicados nos seus respectivos READMEs:
 
-- Não inventar números ou declarar tecnologias sem fontes.
-- Utilizar as mesmas condições de rede, aparelho e procedimento para os três aplicativos.
-- Registrar o método de cronometragem e definir o mesmo ponto final de inicialização.
-- O iOS não fornece, nos Ajustes, o consumo de RAM por aplicativo. Se não houver ferramenta confiável, registrar **não mensurado**, sem confundir RAM, bateria e armazenamento.
-- Não publicar conversas, contatos, notificações ou qualquer informação pessoal em capturas de tela.
+- [`capturas/dispositivo/`](capturas/dispositivo/) — iOS e armazenamento do iPhone XR.
+- [`capturas/whatsapp/`](capturas/whatsapp/) — App Store, armazenamento e interface.
+- [`capturas/telegram/`](capturas/telegram/) — App Store, armazenamento e interface.
+- [`capturas/instagram/`](capturas/instagram/) — App Store, armazenamento e Direct.
+
+**Importante:** ocultar dados pessoais em prints. Não alterar valores de medições, nem representar capturas posteriores como se fossem da data original.
+
+## Checklist
+
+- [x] Selecionar aplicativos e definir escopo.
+- [x] Adaptar testes para um iPhone XR.
+- [x] Registrar iOS, capacidade, espaço livre, versões dos apps e data dos testes.
+- [x] Pesquisar stacks e classificar os clientes iOS com ressalvas.
+- [x] Registrar tamanhos na App Store e armazenamento ocupado.
+- [x] Registrar três tempos de inicialização e calcular médias.
+- [x] Registrar fluidez e enquadramento.
+- [x] Documentar a impossibilidade da medição direta de RAM.
+- [x] Concluir discussão fundamentada e relatório textual.
+- [x] Estruturar pastas e orientações de capturas.
+- [ ] Anexar capturas reais em suas pastas.
+- [ ] Identificar os dois integrantes antes da entrega.
+
+## Limitações
+
+A atividade original propunha dois celulares; aqui foi utilizado apenas o iPhone XR. Também há somente três tempos de abertura por app, dados locais não uniformizados e ausência de instrumentação para RAM. Não é possível atribuir as diferenças de desempenho diretamente às tecnologias usadas. Os 300 MB livres merecem atenção, mas sua influência não foi quantificada.
 
 ## Referência da atividade
 
-Material de aula: **Aula03Mobile.pdf**, slides 2–4, projeto de pesquisa de Análise de Mercado. O arquivo original não foi reproduzido neste repositório.
+**Aula03Mobile.pdf**, slides 2 a 4, material de aula fornecido pelos integrantes. O PDF original não foi publicado no repositório.
 
 ## Autoria
 
-Trabalho acadêmico em dupla. Completar os nomes dos integrantes antes da entrega.
+**Trabalho em dupla:** preencher nome dos integrantes antes da entrega.
