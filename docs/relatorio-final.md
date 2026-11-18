@@ -3,7 +3,7 @@
 **Disciplina:** Desenvolvimento para Dispositivos Móveis  
 **Professor:** Prof. Dr. José Augusto de Sena Quaresma  
 **Data da coleta:** 18 de novembro de 2026  
-**Integrantes:** preencher os nomes dos dois participantes antes da entrega.
+**Autor:** Jhoann Carllos Feitosa Araújo.
 
 ## Resumo
 
@@ -39,11 +39,11 @@ O PDF da atividade previa medições em dois celulares. Em razão da disponibili
 
 O tamanho anunciado foi consultado na App Store; o armazenamento ocupado foi obtido em **Ajustes > Geral > Armazenamento do iPhone**. As medidas não foram decompostas em tamanho do app e documentos/dados; assim, refletem ocupação observada, potencialmente influenciada por conversas, mídias e caches.
 
-Para inicialização, foram coletados três tempos por aplicativo, em segundos, após encerramento e reabertura, até a interface estar utilizável, conforme a metodologia planejada. Calculou-se a média aritmética: **(t1 + t2 + t3) / 3**. A fluidez foi classificada como boa, regular ou ruim e o enquadramento como adequado ou com problemas observados, com base na navegação realizada pela equipe. Não foram coletadas medições instrumentadas de FPS.
+Para inicialização, foram coletados três tempos por aplicativo, em segundos, após encerramento e reabertura, até a interface estar utilizável, conforme a metodologia planejada. Calculou-se a média aritmética: **(t1 + t2 + t3) / 3**. A fluidez foi classificada como boa, regular ou ruim e o enquadramento como adequado ou com problemas observados, com base na navegação realizada pelo autor. Não foram coletadas medições instrumentadas de FPS.
 
 ### 3.3 Memória RAM — justificativa da não mensuração
 
-O iOS não oferece nos Ajustes uma leitura direta e confiável da **RAM consumida individualmente por cada aplicativo**. A equipe não utilizou instrumentação de desenvolvimento apropriada para produzir métricas comparáveis. Por isso, os três registros de RAM foram classificados como **“não mensurado”**. Armazenamento ocupado (GB/MB) e indicadores de bateria não foram utilizados como substitutos, porque medem fenômenos distintos. Essa ausência é uma limitação metodológica explícita, não um resultado zero.
+O iOS não oferece nos Ajustes uma leitura direta e confiável da **RAM consumida individualmente por cada aplicativo**. Não foi utilizada instrumentação de desenvolvimento apropriada para produzir métricas comparáveis. Por isso, os três registros de RAM foram classificados como **“não mensurado”**. Armazenamento ocupado (GB/MB) e indicadores de bateria não foram utilizados como substitutos, porque medem fenômenos distintos. Essa ausência é uma limitação metodológica explícita, não um resultado zero.
 
 ## 4. Pesquisa tecnológica e classificação
 
@@ -122,7 +122,7 @@ A pesquisa tecnológica indica diferentes combinações de tecnologias nativas e
 
 ## 8. Referências e documentação
 
-- Material da disciplina: **Aula03Mobile.pdf**, slides 2 a 4, fornecido pela equipe.
+- Material da disciplina: **Aula03Mobile.pdf**, slides 2 a 4, utilizado como referência na atividade.
 - TELEGRAMMESSENGER. *Telegram-iOS*. https://github.com/TelegramMessenger/Telegram-iOS. Acesso em: 18 nov. 2026.
 - TELEGRAM. *Telegram Applications*. https://telegram.org/apps/. Acesso em: 18 nov. 2026.
 - INSTAGRAM. *IGListKit*. https://instagram.github.io/IGListKit/index.html. Acesso em: 18 nov. 2026.
@@ -133,4 +133,4 @@ A pesquisa tecnológica indica diferentes combinações de tecnologias nativas e
 
 ---
 
-**Situação da documentação:** texto conclusivo elaborado a partir dos dados fornecidos. **Pendente para entrega:** anexar capturas reais e completar os nomes da dupla.
+**Situação da documentação:** texto conclusivo elaborado a partir dos dados fornecidos. **Pendente para entrega:** anexar capturas reais. Autor identificado: Jhoann Carllos Feitosa Araújo.
