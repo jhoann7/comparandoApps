@@ -6,7 +6,7 @@ Projeto acadêmico da disciplina **Desenvolvimento para Dispositivos Móveis**, 
 
 Comparar três aplicativos de comunicação digital com mensagens diretas — **WhatsApp, Telegram e Instagram** — quanto à tecnologia empregada, experiência de uso e desempenho observado em um **único iPhone XR**.
 
-> **Status:** pesquisa tecnológica preliminar documentada e primeira coleta de tamanhos de aplicativos registrada. Tempos de inicialização e avaliações de interface pendentes.
+> **Status:** pesquisa tecnológica preliminar e medições de tamanhos e inicialização registradas. Avaliações de fluidez, enquadramento e evidências ainda pendentes.
 
 ## Contexto e adaptação
 
@@ -31,7 +31,7 @@ A atividade original solicita três aplicativos concorrentes, pesquisa da stack 
 
 **Limitação de comparabilidade:** Instagram é uma rede social com mensagens diretas e não um mensageiro dedicado. A análise prática deve priorizar tarefas de mensagens equivalentes e contextualizar o impacto das funções extras.
 
-**Dispositivo informado:** iPhone XR, iOS 18.7.11, 64 GB de capacidade. Demais condições ainda não registradas.
+**Dispositivo informado:** iPhone XR, iOS 18.7.11, 64 GB de capacidade e 300 MB de espaço livre (registro anterior). Demais condições ainda não registradas.
 
 ## Fluxo de trabalho
 
@@ -41,7 +41,7 @@ A atividade original solicita três aplicativos concorrentes, pesquisa da stack 
 - [ ] Registrar configurações e versões do dispositivo e aplicativos.
 - [x] Pesquisar e documentar as evidências iniciais das stacks e a classificação do cliente iOS (com ressalvas; Instagram incluído).
 - [x] Coletar tamanho na App Store e armazenamento ocupado no iPhone (sem separar documentos e dados).
-- [ ] Realizar três aberturas cronometradas de cada aplicativo.
+- [x] Registrar três aberturas cronometradas de cada aplicativo e calcular as médias.
 - [ ] Avaliar fluidez e enquadramento de forma padronizada.
 - [ ] Anexar capturas de tela e preencher a tabela.
 - [ ] Produzir análise crítica e conclusão.
