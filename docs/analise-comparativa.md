@@ -2,7 +2,7 @@
 
 **Autor:** Jhoann Carllos Feitosa Araújo.
 
-> **Análise concluída com os dados disponíveis** (18/11/2026; WhatsApp 26.45.75, Telegram 13.2.2, Instagram 456.0.0). Ver também [relatório completo](relatorio-final.md). Capturas ainda pendentes.
+> **Análise concluída com os dados disponíveis** (18/11/2026; WhatsApp 26.45.75, Telegram 13.2.2, Instagram 456.0.0). Ver também [relatório completo](relatorio-final.md). Onze capturas JPEG já organizadas nas pastas do repositório.
 
 ## 1. Síntese dos resultados
 
