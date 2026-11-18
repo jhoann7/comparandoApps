@@ -1,5 +1,7 @@
 # Análise comparativa — resultados e discussão
 
+**Autor:** Jhoann Carllos Feitosa Araújo.
+
 > **Análise concluída com os dados disponíveis** (18/11/2026; WhatsApp 26.45.75, Telegram 13.2.2, Instagram 456.0.0). Ver também [relatório completo](relatorio-final.md). Capturas ainda pendentes.
 
 ## 1. Síntese dos resultados
@@ -25,7 +27,7 @@ Resultados registrados:
 | Telegram | 1,37 s | 1,15 s | 0,85 s | 1,1233 s (≈ 1,12 s) |
 | Instagram | 1,35 s | 1,34 s | 4,22 s | 2,3033 s (≈ 2,30 s) |
 
-**Cálculo:** média = (t1 + t2 + t3) / 3. Todos os tempos em segundos. Os resultados foram informados pela equipe para um único iPhone XR; a data e as versões dos apps estão registradas.
+**Cálculo:** média = (t1 + t2 + t3) / 3. Todos os tempos em segundos. Os resultados foram coletados pelo autor em um único iPhone XR; a data e as versões dos apps estão registradas.
 
 **Interpretação preliminar:** Telegram teve a menor média, seguido de WhatsApp e Instagram. A terceira abertura do Instagram (4,22 s) foi muito superior às duas primeiras (1,35 s e 1,34 s) e influenciou sua média. Manter esse valor no conjunto original; uma repetição futura pode investigar a variação, sem substituir silenciosamente o dado. O armazenamento livre previamente informado foi 300 MB, mas não há prova de que tenha provocado o tempo elevado. Apenas três repetições por app não sustentam conclusão geral sobre desempenho nem causalidade tecnológica.
 
@@ -38,9 +40,9 @@ Resultados registrados:
 
 ### Avaliação qualitativa de navegação e interface
 
-- **WhatsApp:** fluidez boa e enquadramento adequado; equipe não relatou observações adicionais.
-- **Telegram:** fluidez boa e enquadramento adequado; equipe não relatou observações adicionais.
-- **Instagram:** fluidez regular e enquadramento adequado; equipe não relatou observações adicionais ou localização específica de atrasos.
+- **WhatsApp:** fluidez boa e enquadramento adequado; não foram registradas observações adicionais.
+- **Telegram:** fluidez boa e enquadramento adequado; não foram registradas observações adicionais.
+- **Instagram:** fluidez regular e enquadramento adequado; não foram registradas observações adicionais ou indicação específica de atrasos.
 - Os três aplicativos tiveram enquadramento considerado adequado no iPhone XR. O Instagram teve avaliação subjetiva de fluidez inferior às dos mensageiros, mas não é possível determinar a causa apenas com essa classificação.
 - A avaliação é qualitativa e específica do dispositivo e das condições de teste; não equivale a medição de FPS ou RAM.
 
