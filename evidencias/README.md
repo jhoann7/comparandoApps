@@ -1,25 +1,12 @@
-# Evidências de testes
+# Evidências — pasta reorganizada
 
-Esta pasta receberá as capturas de tela e registros da coleta no iPhone XR.
+Para manter a organização semelhante aos projetos Snack, **todas as novas capturas devem ser enviadas para [`capturas/`](../capturas/)**, separadas por aplicativo e dispositivo.
 
-## Convenção de nomes
+- [Capturas do dispositivo](../capturas/dispositivo/)
+- [Capturas do WhatsApp](../capturas/whatsapp/)
+- [Capturas do Telegram](../capturas/telegram/)
+- [Capturas do Instagram](../capturas/instagram/)
 
-- `whatsapp-app-store.png`
-- `whatsapp-armazenamento.png`
-- `whatsapp-interface.png`
-- `telegram-app-store.png`
-- `telegram-armazenamento.png`
-- `telegram-interface.png`
-- `instagram-app-store.png`
-- `instagram-armazenamento.png`
-- `instagram-interface.png`
+Cada pasta tem um README com **os nomes exatos dos prints necessários**. Nenhuma captura real foi adicionada até agora.
 
-Para imagens adicionais, usar nomes descritivos, por exemplo `telegram-conversa-teste.png`.
-
-## Privacidade
-
-Antes do envio ao GitHub, ocultar ou recortar nomes de contatos, números, mensagens pessoais, fotos, códigos de autenticação e notificações privadas. Preferir conversas de teste com dados fictícios.
-
-## Situação
-
-Nenhuma evidência foi adicionada ainda. Capturas deverão corresponder a testes realmente realizados.
+A pasta `evidencias/` é mantida somente como redirecionamento para evitar links antigos quebrados.
