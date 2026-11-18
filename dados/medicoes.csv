@@ -1,4 +1,4 @@
 aplicativo,versao_app,data_teste,tamanho_app_store_mb,tamanho_app_instalado_mb,documentos_dados_mb,inicializacao_1_s,inicializacao_2_s,inicializacao_3_s,media_inicializacao_s,fluidez,enquadramento,ram_mb,metodo_ram,observacoes
-WhatsApp,,,385.3,5350,,,,,,,,nao_mensurado,nao_disponivel,Valor de 5.35 GB informado como armazenamento ocupado; convertido em MB decimais
-Telegram,,,167.8,230,,,,,,,,nao_mensurado,nao_disponivel,Armazenamento ocupado informado no iPhone
-Instagram,,,693.7,2630,,,,,,,,nao_mensurado,nao_disponivel,Valor de 2.63 GB informado como armazenamento ocupado; convertido em MB decimais
+WhatsApp,,,385.3,5350,,1.74,1.62,1.73,1.6967,,,nao_mensurado,nao_disponivel,Valor de 5.35 GB informado como armazenamento ocupado; convertido em MB decimais
+Telegram,,,167.8,230,,1.37,1.15,0.85,1.1233,,,nao_mensurado,nao_disponivel,Armazenamento ocupado informado no iPhone
+Instagram,,,693.7,2630,,1.35,1.34,4.22,2.3033,,,nao_mensurado,nao_disponivel,Valor de 2.63 GB informado como armazenamento ocupado; convertido em MB decimais,; terceira abertura 4.22 s acima das anteriores; investigar variacao sem excluir observacao
