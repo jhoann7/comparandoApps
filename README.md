@@ -6,7 +6,7 @@ Projeto acadêmico de **Desenvolvimento para Dispositivos Móveis** — Prof. Dr
 
 Comparar **WhatsApp, Telegram e Instagram** quanto às tecnologias documentadas, tamanho, armazenamento, tempo de inicialização e experiência de interface no **iPhone XR**.
 
-> **Situação:** relatório e análise concluídos com os dados fornecidos em 18/11/2026. Capturas de tela reais e identificação da dupla ainda pendentes.
+> **Situação:** relatório e análise concluídos com os dados fornecidos em 18/11/2026. Capturas de tela reais ainda pendentes. Autor identificado.
 
 ## Dados da pesquisa
 
@@ -81,7 +81,7 @@ Coloque as capturas nas pastas abaixo, seguindo os nomes indicados nos seus resp
 - [x] Concluir discussão fundamentada e relatório textual.
 - [x] Estruturar pastas e orientações de capturas.
 - [ ] Anexar capturas reais em suas pastas.
-- [ ] Identificar os dois integrantes antes da entrega.
+- [x] Identificar o autor do trabalho: Jhoann Carllos Feitosa Araújo.
 
 ## Limitações
 
@@ -89,8 +89,8 @@ A atividade original propunha dois celulares; aqui foi utilizado apenas o iPhone
 
 ## Referência da atividade
 
-**Aula03Mobile.pdf**, slides 2 a 4, material de aula fornecido pelos integrantes. O PDF original não foi publicado no repositório.
+**Aula03Mobile.pdf**, slides 2 a 4, material de aula utilizado nesta pesquisa. O PDF original não foi publicado no repositório.
 
 ## Autoria
 
-**Trabalho em dupla:** preencher nome dos integrantes antes da entrega.
+**Jhoann Carllos Feitosa Araújo** — autor e responsável pelo desenvolvimento da pesquisa, coleta das medições e documentação.
