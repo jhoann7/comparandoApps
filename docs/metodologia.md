@@ -57,7 +57,7 @@ A RAM por aplicativo **não é exposta diretamente nos Ajustes do iOS**. Somente
 
 ## 5. Registro e análise
 
-As linhas dos três aplicativos foram preenchidas em [dados/medicoes.csv](../dados/medicoes.csv), com valores observados e médias calculadas. As capturas devem ser anexadas conforme [capturas/README.md](../capturas/README.md); o texto interpretativo está em [relatorio-final.md](relatorio-final.md).
+As linhas dos três aplicativos foram preenchidas em [dados/medicoes.csv](../dados/medicoes.csv), com valores observados e médias calculadas. As 11 capturas JPEG estão disponíveis em [capturas/](../capturas/), organizadas por dispositivo e aplicativo; o texto interpretativo e os links individuais estão em [relatorio-final.md](relatorio-final.md).
 
 ## 6. Limitações
 
