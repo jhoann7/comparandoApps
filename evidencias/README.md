@@ -10,9 +10,9 @@ Esta pasta receberá as capturas de tela e registros da coleta no iPhone XR.
 - `telegram-app-store.png`
 - `telegram-armazenamento.png`
 - `telegram-interface.png`
-- `signal-app-store.png`
-- `signal-armazenamento.png`
-- `signal-interface.png`
+- `instagram-app-store.png`
+- `instagram-armazenamento.png`
+- `instagram-interface.png`
 
 Para imagens adicionais, usar nomes descritivos, por exemplo `telegram-conversa-teste.png`.
 
