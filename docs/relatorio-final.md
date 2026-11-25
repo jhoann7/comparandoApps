@@ -7,7 +7,7 @@
 
 ## Resumo
 
-O trabalho comparou três aplicativos de comunicação digital disponíveis para iOS — WhatsApp, Telegram e Instagram — em um único iPhone XR, com foco na stack de desenvolvimento, no armazenamento, no tempo de inicialização e na experiência de interface. Foram realizadas três medições de abertura por aplicativo, além de observações de fluidez e enquadramento. O Telegram apresentou a menor média de inicialização (1,12 s), o menor espaço ocupado (230 MB) e boa fluidez. O WhatsApp obteve 1,70 s, fluidez boa e 5,35 GB ocupados; o Instagram apresentou 2,30 s, fluidez regular e 2,63 GB ocupados. Todos tiveram enquadramento considerado adequado. O consumo de memória RAM não foi mensurado diretamente por falta de instrumento confiável no iOS. Os achados descrevem o comportamento observado no aparelho, mas não demonstram superioridade intrínseca de uma stack tecnológica.
+O trabalho comparou três aplicativos de disponíveis para iOS: WhatsApp, Telegram e Instagram. A comparação foi feita em um único iPhone XR, com foco na stack de desenvolvimento, no armazenamento, no tempo de inicialização e na experiência de interface. Foram realizadas três medições de abertura por aplicativo, além de observações de fluidez e enquadramento. O Telegram apresentou a menor média de inicialização (1,12 s), o menor espaço ocupado (230 MB) e boa fluidez. O WhatsApp obteve 1,70 s, fluidez boa e 5,35 GB ocupados; o Instagram apresentou 2,30 s, fluidez regular e 2,63 GB ocupados. Todos tiveram enquadramento considerado adequado. O consumo de memória RAM não foi mensurado diretamente por falta de configuração nativa no iOS.
 
 **Palavras-chave:** iOS; aplicativos móveis; desempenho; experiência do usuário; análise comparativa.
 
@@ -25,7 +25,7 @@ Os aplicativos móveis são desenvolvidos com diferentes combinações de lingua
 
 ### 3.1 Dispositivo, versões e adaptação
 
-O PDF da atividade previa medições em dois celulares. Em razão da disponibilidade de somente um dispositivo, os testes foram realizados em **um iPhone XR, iOS 18.7.11, capacidade de 64 GB**, com **300 MB de espaço livre informado** no registro do aparelho. A comparação, portanto, é intradispositivo e não pode ser generalizada a outros modelos ou ao Android.
+O PDF da atividade previa medições em dois celulares. Em razão da disponibilidade de somente um dispositivo, os testes foram realizados em **um iPhone XR, iOS 18.7.11, capacidade de 64 GB**, com **300 MB de espaço livre informado** no aparelho. A comparação, portanto, é intradispositivo e não pode ser generalizada a outros modelos ou ao Android.
 
 | Aplicativo | Versão testada |
 | --- | --- |
